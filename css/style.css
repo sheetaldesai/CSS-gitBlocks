@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Courier New", "Courier";
+    font-size: 14px;
+}
+
+.inlineBlock {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contentBox {
+    color: #DEE0D5;
+    background-color: #173F43;
+    padding: 10px; 
+}
+
+.contentBox p {
+    padding-left: 5px;
+}
+
+.contentBox h3 {
+    margin: 0;
+}
+
+.contentBox span {
+    color: #3FB0AC;
+}
+
+#container{
+    width: 950px;
+    background-color: #DDDFD4;
+    padding: 15px;
+    /*margin: 0px auto;*/
+}
+
+
+#main {
+    background-color: #FAE596;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+#header, #footer {
+    height: 60px;
+    color: #DDDFD4;
+    background-color: #3FB0AC;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 10px 0 0 0;
+    color: #0D2636;
+}
+
+#header ul {
+    margin: 0;
+    margin-top: 17px;
+}
+#header li {
+    display: inline;
+    padding: 5px;
+}
+#header img {
+    padding: 10px 0;
+    width: 30px;
+    height: 30px;
+}
+
+#header li a {
+    color: #DDDFD4;
+    font-weight: bold;
+}
+
+#links {
+    text-align: right;
+}
+
+#mainLeft {
+    width: 23%;
+    height: 502px;
+}
+
+#mainRight {
+    width: 73%
+}
+
+#row1 {
+    margin-left: 30px;
+}
+#row1 div {
+    width: 26%;
+    height: 150px;
+}
+
+#row1 div:nth-child(2) {
+    margin: 0 35px;
+}
+#row2 {
+    margin: 30px 0;
+}
+#row2 div {
+    width: 41%
+} 
+
+#row2 div:nth-child(1) {
+    margin: 0 40px 0 30px;
+}
+
+#row3 div {
+    margin: 0 15px 0 30px;
+}
+
+#footer {
+    text-align: center;
+    color: #0D2636;
+    padding: 1px 0;
+}
